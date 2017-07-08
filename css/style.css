@@ -1,0 +1,203 @@
+/* 
+Project Name: Music Box
+Client: Personal Project
+Author: Toby Boyd
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+@font-face{
+    font-family: "Music Font";
+    src: url(../fonts/discotechia/discotechia.ttf) format("truetype");
+}
+
+h1 {
+font-family: "Music Font";
+color:#e3eeef;
+font-size: 7em;
+text-align: center;
+margin-top:10%;
+}
+
+@media (max-width:700px) {
+    h1 {
+        font-size: 5em;
+    }
+
+}
+
+body {
+     background-color: black;
+}
+
+#instrument {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    display: inline-block;
+}
+
+#c {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+#c.active {
+     background-color:#db1d2d; 
+}
+#c.active:hover {
+     background-color:#db1d2d; 
+}
+#c:hover {
+    background-color:#661920;
+    cursor: pointer;
+}
+
+#d {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+}
+#d.active {
+     background-color:#f0421c; 
+}
+#d.active:hover {
+     background-color:#f0421c; 
+}
+#d:hover {
+    background-color:#6e2819;
+    cursor: pointer;
+}
+
+#e {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+#e.active {
+     background-color:#fec02d; 
+}
+#e.active:hover {
+     background-color:#fec02d; 
+}
+#e:hover {
+    background-color:#735b20;
+    cursor: pointer;
+}
+
+#f {
+    background-color: #193c29;
+    border: 3px solid #20d071;
+}
+#f.active {
+     background-color:#20d071; 
+}
+#f.active:hover {
+     background-color:#20d071; 
+}
+#f:hover {
+    background-color:#1b613b;
+    cursor: pointer;
+}
+
+#g {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+}
+#g.active {
+     background-color:#1a9ddb; 
+}
+#g.active:hover {
+     background-color:#1a9ddb; 
+}
+#g:hover {
+    background-color:#184d65;
+    cursor: pointer;
+}
+
+#h {
+    background-color: #31183e;
+    border: 3px solid #9d1adb;
+}
+#h.active {
+     background-color:#a11adb; 
+}
+#h.active:hover {
+     background-color:#a11adb; 
+}
+#h:hover {
+    background-color:#531765;
+    cursor: pointer;
+}
+
+#i {
+    background-color: #18323e;
+    border: 3px solid #1a9ddb;
+}
+#i.active {
+     background-color:#1a9ddb; 
+}
+#i.active:hover {
+     background-color:#1a9ddb; 
+}
+#i:hover {
+    background-color:#184d65;
+    cursor: pointer;
+}
+
+#j {
+    background-color: #033b96;
+    border: 3px solid #1a9ddb;
+}
+#j.active {
+     background-color:#1a9ddb; 
+}
+#j.active:hover {
+     background-color:#1a9ddb; 
+}
+#j:hover {
+    background-color:#184d65;
+    cursor: pointer;
+}
+
+
